@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">JSON Parsing Localhost Demo</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_cash">CashActivity</string>
+    <string name="title_activity_cash_payment">CashPaymentActivity</string>
+    <string name="title_activity_show_cash_book">ShowCashBookActivity</string>
+</resources>

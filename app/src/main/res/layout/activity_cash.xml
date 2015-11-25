@@ -1,0 +1,112 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <!--&lt;!&ndash; Name Label &ndash;&gt;-->
+    <!--<TextView android:layout_width="fill_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:text="Product Name"-->
+    <!--android:paddingLeft="10dip"-->
+    <!--android:paddingRight="10dip"-->
+    <!--android:paddingTop="10dip"-->
+    <!--android:textSize="17dip"/>-->
+
+    <!-- Input Name -->
+    <EditText android:id="@+id/inputName"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="Record No."
+        android:gravity="center"
+        android:layout_margin="5dip"
+        android:layout_marginBottom="15dip"
+        android:singleLine="true"/>
+
+    <!-- Price Label -->
+    <!--<TextView android:layout_width="fill_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:text="Price"-->
+    <!--android:paddingLeft="10dip"-->
+    <!--android:paddingRight="10dip"-->
+    <!--android:paddingTop="10dip"-->
+    <!--android:textSize="17dip"/>-->
+
+    <!-- Input Price -->
+    <EditText android:id="@+id/inputPrice"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="Balance"
+        android:gravity="center"
+        android:layout_margin="5dip"
+        android:layout_marginBottom="15dip"
+        android:singleLine="true"
+        android:inputType="numberDecimal"/>
+
+    <!-- Description Label -->
+    <!--<TextView android:layout_width="fill_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:text="Description"-->
+    <!--android:paddingLeft="10dip"-->
+    <!--android:paddingRight="10dip"-->
+    <!--android:paddingTop="10dip"-->
+    <!--android:textSize="17dip"/>-->
+
+    <!-- Input description -->
+    <EditText android:id="@+id/inputDesc"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="Date"
+        android:inputType="date"
+        android:layout_margin="5dip"
+        android:layout_marginBottom="15dip"
+        android:singleLine="true"
+        android:gravity="center"/>
+
+    <!-- Input create date -->
+    <EditText android:id="@+id/inputCreate"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="ShareMoney"
+        android:layout_margin="5dip"
+        android:layout_marginBottom="15dip"
+        android:singleLine="true"
+        android:gravity="center"/>
+
+    <!-- Input update date -->
+    <EditText android:id="@+id/inputUpdate"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="Fixed Balance"
+        android:layout_margin="5dip"
+        android:layout_marginBottom="15dip"
+        android:singleLine="true"
+        android:gravity="center"/>
+
+    <!-- Input update date -->
+    <EditText android:id="@+id/inputParticulars"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="Particulars_r"
+        android:layout_margin="5dip"
+        android:layout_marginBottom="15dip"
+        android:singleLine="true"
+        android:gravity="center"/>
+
+    <!-- Input update date -->
+    <EditText android:id="@+id/inputLedgerfolio"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ledgerfolio"
+        android:layout_margin="5dip"
+        android:layout_marginBottom="15dip"
+        android:singleLine="true"
+        android:gravity="center"/>
+
+
+    <!-- Button Create Product -->
+    <Button android:id="@+id/btnCreateProduct"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Add"/>
+
+</LinearLayout>
